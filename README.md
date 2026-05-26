@@ -5,9 +5,8 @@
 ![Azure Policy](https://img.shields.io/badge/Azure-Policy-0089D6)
 ![GitHub Actions](https://img.shields.io/badge/GitHub-Actions-2088FF?logo=githubactions)
 ![Azure Monitor](https://img.shields.io/badge/Azure-Monitor-0078D4)
-![IaC](https://img.shields.io/badge/Infrastructure-Automation-blue)
 
-Enterprise-grade Azure governance implementation using Terraform, Azure Policy, Governance Guardrails, Compliance Monitoring, and Policy-as-Code principles to standardize, secure, and continuously monitor Azure cloud environments.
+Enterprise-grade Azure Governance implementation using Terraform, Azure Policy, Governance Guardrails, Compliance Monitoring, and Policy-as-Code principles to standardize, secure, and continuously monitor Azure cloud environments.
 
 ---
 
@@ -17,35 +16,9 @@ This project demonstrates an enterprise Azure Governance platform designed using
 
 The implementation automates governance controls, compliance visibility, resource standardization, and cloud security enforcement while following enterprise cloud governance practices.
 
-The platform simulates governance patterns commonly implemented across enterprise Azure landing zone environments.
-
----
-
-## 🧑‍💼 Business Requirement
-
-Objective was to design a governance framework capable of:
-
-✅ Enforcing governance controls
-
-✅ Eliminating configuration drift
-
-✅ Restricting unauthorized deployments
-
-✅ Standardizing cloud environments
-
-✅ Providing compliance visibility
-
-✅ Implementing Policy-as-Code principles
-
-✅ Improving governance posture
-
-✅ Supporting enterprise cloud operations
-
 ---
 
 ## 🏗 Enterprise Governance Architecture
-
-Governance Workflow:
 
 Azure Subscription
 
@@ -123,205 +96,111 @@ Governance Reporting
 
 ✅ Subscription Governance
 
-✅ Compliance Visibility
-
 ✅ Continuous Governance Monitoring
 
 ---
 
-## 📂 Repository Structure
+# 📸 Implementation Screenshots
 
-```
+## Terraform Backend Deployment
 
-enterprise-azure-landing-zone-governance/
-
-│
-
-├── .github/
-
-│ └── workflows/
-
-│ └── terraform.yml
-
-│
-
-├── screenshots/
-
-│ ├── compliance-dashboard.png
-
-│ ├── governance-policies.png
-
-│ ├── terraform-apply.png
-
-│ ├── initiative-assignment.png
-
-│
-
-├── main.tf
-
-├── README.md
-
-└── .gitignore
-
-```
+![Terraform Deployment](screenshots/terraform%20resource%20deployment%20output.PNG)
 
 ---
 
-## 🛠 Implementation Process
+## Storage Backend Configuration
 
-### 1️⃣ Governance Structure Design
+![Storage Policy](screenshots/storage%20account%20access%20policy.PNG)
 
-Created governance hierarchy:
-
-- Production Environment
-- Development Environment
-- Sandbox Environment
-
-Governance boundaries implemented using Azure management structure.
+![Storage Container](screenshots/storage%20account%20container%20list.PNG)
 
 ---
 
-### 2️⃣ Terraform Backend Configuration
+## Policy Definition Configuration
 
-Configured:
+### Basic Configuration
 
-- Azure Storage Account
-- Remote State Storage
-- Backend Locking
-- State Management
+![Basic Settings](screenshots/policy%20definition%20basic%20settings.PNG)
 
-Infrastructure automation standardized through Terraform.
+### Tag Parameters
 
----
+![Tag Config](screenshots/policy%20tag%20parameter%20configuration.PNG)
 
-### 3️⃣ Azure Policy Implementation
+### Review Configuration
 
-Implemented governance controls:
-
-Allowed Regions Policy
-
-↓
-
-VM SKU Restrictions
-
-↓
-
-Mandatory Resource Tags
-
-↓
-
-Storage Network Security Controls
-
-↓
-
-Governance Enforcement
+![Review](screenshots/policy%20definition%20review%20create.PNG)
 
 ---
 
-### 4️⃣ Initiative Definition Deployment
+## Policy Assignment Configuration
 
-Configured:
+### Assign Policy
 
-- Enterprise Governance Initiative
-- Policy Grouping
-- Central Governance Assignment
-- Subscription Scope Enforcement
+![Assign Policy](screenshots/assign%20policy%20configuration.PNG)
 
----
+### Scope Selection
 
-### 5️⃣ Compliance Dashboard
+![Scope](screenshots/policy%20assignment%20scope%20selection.PNG)
 
-Implemented Azure Monitor Workbook:
+### Advanced Settings
 
-Visibility includes:
+![Advanced](screenshots/policy%20assignment%20advanced%20settings.PNG)
 
-- Compliance Percentage
-- Compliant Resources
-- Non-Compliant Resources
-- Policy Distribution
-- Resource Governance Status
+### Assignment Summary
+
+![Summary](screenshots/policy%20assignment%20summary.PNG)
 
 ---
 
-## ⚠ Engineering Challenges Solved
+## Policy Enforcement
 
-### Challenge 01
+![Enforcement](screenshots/policy%20enforcement%20configuration.PNG)
 
-Problem:
-
-Terraform backend authorization failure.
-
-Error:
-
-403 AuthorizationFailure
-
-Root Cause:
-
-Terraform backend access restriction.
-
-Solution:
-
-Configured backend authentication and storage access.
-
-Outcome:
-
-Terraform remote backend operational.
+![Compliance](screenshots/policy%20compliance%20settings.PNG)
 
 ---
 
-### Challenge 02
+## Governance Validation Steps
 
-Problem:
+### Validation Flow
 
-Azure Policy Initiative deployment failure.
+![16](screenshots/16.PNG)
 
-Error:
+![17](screenshots/17.PNG)
 
-MissingPolicyParameter
+![18](screenshots/18.PNG)
 
-Root Cause:
+![19](screenshots/19.PNG)
 
-Policy initiative parameter mapping incomplete.
+![20](screenshots/20.PNG)
 
-Solution:
+![21](screenshots/21.PNG)
 
-Implemented parameter definitions and mappings.
+![22](screenshots/22.PNG)
 
-Outcome:
+![23](screenshots/23.PNG)
 
-Governance initiative deployed successfully.
+![24](screenshots/24.PNG)
 
----
+![25](screenshots/25.PNG)
 
-### Challenge 03
+![26](screenshots/26.PNG)
 
-Problem:
+![27](screenshots/27.PNG)
 
-Governance policy blocked workbook deployment.
+![28](screenshots/28.PNG)
 
-Root Cause:
-
-Allowed Locations policy enforcement.
-
-Solution:
-
-Aligned resource deployment region with governance controls.
-
-Outcome:
-
-Governance enforcement validated successfully.
+![29](screenshots/29.PNG)
 
 ---
 
-## 📈 Compliance Dashboard
+## Additional Outputs
 
-Azure Monitor Workbook provides:
+![X](screenshots/x.PNG)
 
-- Compliance Percentage
-- Resource Governance Visibility
-- Policy Distribution
-- Non-Compliant Resource Detection
-- Governance Reporting
+![Y](screenshots/y.PNG)
+
+![Y2](screenshots/y2.PNG)
 
 ---
 
@@ -344,7 +223,7 @@ Future Improvements:
 
 ---
 
-## 🧑‍💼 Business Impact
+## 📈 Business Impact
 
 Reduced:
 
@@ -356,7 +235,7 @@ Reduced:
 Improved:
 
 - Compliance visibility
-- Cloud governance posture
+- Governance posture
 - Standardization
 - Operational consistency
 
@@ -390,32 +269,16 @@ Policy-as-Code
 
 ---
 
-## 📈 Final Outcome
-
-Successfully designed and implemented an enterprise Azure Governance platform supporting compliance enforcement, governance automation, policy standardization, continuous monitoring, and cloud operational governance.
-
----
-
 ## 👨‍💻 Author
 
-Amit Kumar
+**Amit Kumar**
 
 Azure Administrator | Cloud Infrastructure Engineer | Azure Governance Enthusiast
 
-Passionate about building scalable cloud governance frameworks, infrastructure automation solutions, and enterprise Azure operational platforms.
-
----
-
-## 🔗 Connect With Me
-
-LinkedIn
-
-https://linkedin.com/
-
-GitHub
+GitHub:
 
 https://github.com/Akamitt009
 
 ---
 
-⭐ If you found this project valuable, consider giving it a star.
+⭐ If you found this project valuable, give it a star.
