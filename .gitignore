@@ -3,3 +3,6 @@
 *.tfstate.* 
 terraform.tfvars 
 *.tfvars 
+.terraform/
+*.tfstate
+*.tfstate.backup
