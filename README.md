@@ -138,12 +138,40 @@ enterprise-azure-landing-zone-governance/
 │   └── workflows/
 │       └── terraform.yml
 
-├── screenshots/
+├── 16.PNG
+├── 17.PNG
+├── 18.PNG
+├── 19.PNG
+├── 20.PNG
+├── 21.PNG
+├── 22.PNG
+├── 23.PNG
+├── 24.PNG
+├── 25.PNG
+├── 26.PNG
+├── 27.PNG
+├── 28.PNG
+├── 29.PNG
+
+├── assign policy configuration.PNG
+├── policy assignment advanced settings.PNG
+├── policy assignment scope selection.PNG
+├── policy assignment summary.PNG
+├── policy compliance settings.PNG
+├── policy definition basic settings.PNG
+├── policy definition review create.PNG
+├── policy enforcement configuration.PNG
+├── policy tag parameter configuration.PNG
+├── storage account access policy.PNG
+├── storage account container list.PNG
+├── terraform resource deployment output.PNG
+
+├── x.PNG
+├── xy2.PNG
+├── y.PNG
 
 ├── main.tf
-
 ├── README.md
-
 └── .gitignore
 ```
 
@@ -153,87 +181,87 @@ enterprise-azure-landing-zone-governance/
 
 ## Terraform Deployment
 
-![Terraform](./terraform-resource-deployment-output.PNG)
+![Terraform](terraform resource deployment output.PNG)
 
 ---
 
 ## Storage Backend Configuration
 
-![Storage](./storage-account-access-policy.PNG)
+![Storage](storage account access policy.PNG)
 
-![Container](./storage-account-container-list.PNG)
+![Container](storage account container list.PNG)
 
 ---
 
 ## Policy Definition
 
-![Basic](./policy-definition-basic-settings.PNG)
+![Basic](policy definition basic settings.PNG)
 
-![Parameter](./policy-tag-parameter-configuration.PNG)
+![Parameter](policy tag parameter configuration.PNG)
 
-![Review](./policy-definition-review-create.PNG)
+![Review](policy definition review create.PNG)
 
 ---
 
 ## Policy Assignment
 
-![Assign](./assign-policy-configuration.PNG)
+![Assign](assign policy configuration.PNG)
 
-![Scope](./policy-assignment-scope-selection.PNG)
+![Scope](policy assignment scope selection.PNG)
 
-![Advanced](./policy-assignment-advanced-settings.PNG)
+![Advanced](policy assignment advanced settings.PNG)
 
-![Summary](./policy-assignment-summary.PNG)
+![Summary](policy assignment summary.PNG)
 
 ---
 
 ## Governance Enforcement
 
-![Enforcement](./policy-enforcement-configuration.PNG)
+![Enforcement](policy enforcement configuration.PNG)
 
-![Compliance](./policy-compliance-settings.PNG)
+![Compliance](policy compliance settings.PNG)
 
 ---
 
 ## Validation Flow
 
-![16](./16.PNG)
+![16](16.PNG)
 
-![17](./17.PNG)
+![17](17.PNG)
 
-![18](./18.PNG)
+![18](18.PNG)
 
-![19](./19.PNG)
+![19](19.PNG)
 
-![20](./20.PNG)
+![20](20.PNG)
 
-![21](./21.PNG)
+![21](21.PNG)
 
-![22](./22.PNG)
+![22](22.PNG)
 
-![23](./23.PNG)
+![23](23.PNG)
 
-![24](./24.PNG)
+![24](24.PNG)
 
-![25](./25.PNG)
+![25](25.PNG)
 
-![26](./26.PNG)
+![26](26.PNG)
 
-![27](./27.PNG)
+![27](27.PNG)
 
-![28](./28.PNG)
+![28](28.PNG)
 
-![29](./29.PNG)
+![29](29.PNG)
 
 ---
 
 ## Additional Outputs
 
-![X](./x.PNG)
+![X](x.PNG)
 
-![XYZ](./xyz.PNG)
+![XY2](xy2.PNG)
 
-![Y](./y.PNG)
+![Y](y.PNG)
 
 ---
 
@@ -247,8 +275,6 @@ Created governance hierarchy:
 - Development Environment
 - Sandbox Environment
 
----
-
 ### 2️⃣ Terraform Backend Configuration
 
 Configured:
@@ -258,18 +284,14 @@ Configured:
 - Backend Locking
 - State Management
 
----
-
 ### 3️⃣ Azure Policy Implementation
 
-Implemented:
+Implemented governance controls:
 
 - Allowed Regions Policy
 - VM SKU Restrictions
 - Mandatory Resource Tags
 - Storage Network Security Controls
-
----
 
 ### 4️⃣ Initiative Definition Deployment
 
@@ -279,8 +301,6 @@ Configured:
 - Policy Grouping
 - Central Governance Assignment
 - Subscription Scope Enforcement
-
----
 
 ### 5️⃣ Compliance Dashboard
 
@@ -309,15 +329,15 @@ Implemented:
 
 Reduced:
 
-- Configuration Drift
-- Governance Violations
-- Manual Effort
+- Manual governance effort
+- Configuration drift
+- Policy violations
 
 Improved:
 
-- Governance Visibility
+- Governance visibility
+- Cloud governance posture
 - Standardization
-- Compliance Monitoring
 
 ---
 
@@ -327,9 +347,9 @@ Azure Governance
 
 Terraform
 
-Azure Policy
-
 Infrastructure as Code
+
+Azure Policy
 
 Cloud Compliance
 
@@ -337,7 +357,7 @@ Azure Monitor
 
 Governance Automation
 
-Cloud Security
+Cloud Security Controls
 
 CI/CD Integration
 
@@ -347,7 +367,7 @@ CI/CD Integration
 
 Amit Kumar
 
-Azure Administrator | Cloud Infrastructure Engineer
+Azure Administrator | Cloud Infrastructure Engineer | Azure Governance Enthusiast
 
 GitHub:
 
@@ -355,4 +375,4 @@ https://github.com/Akamitt009
 
 ---
 
-⭐ Consider giving the repository a star.
+⭐ If you found this project valuable, consider giving it a star.
