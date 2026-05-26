@@ -11,13 +11,13 @@ terraform {
 
   backend "azurerm" {
 
-    resource_group_name  = "First-Policy"
+    resource_group_name = "First-Policy"
 
     storage_account_name = "stterraformstateamit009"
 
-    container_name       = "tfstate"
+    container_name = "tfstate"
 
-    key                  = "enterprise-governance.tfstate"
+    key = "enterprise-governance.tfstate"
 
   }
 
