@@ -153,87 +153,87 @@ enterprise-azure-landing-zone-governance/
 
 ## Terraform Deployment
 
-![Terraform](screenshots/terraform%20resource%20deployment%20output.PNG)
+![Terraform](./terraform-resource-deployment-output.PNG)
 
 ---
 
 ## Storage Backend Configuration
 
-![Storage](screenshots/storage%20account%20access%20policy.PNG)
+![Storage](./storage-account-access-policy.PNG)
 
-![Container](screenshots/storage%20account%20container%20list.PNG)
+![Container](./storage-account-container-list.PNG)
 
 ---
 
 ## Policy Definition
 
-![Basic](screenshots/policy%20definition%20basic%20settings.PNG)
+![Basic](./policy-definition-basic-settings.PNG)
 
-![Parameter](screenshots/policy%20tag%20parameter%20configuration.PNG)
+![Parameter](./policy-tag-parameter-configuration.PNG)
 
-![Review](screenshots/policy%20definition%20review%20create.PNG)
+![Review](./policy-definition-review-create.PNG)
 
 ---
 
 ## Policy Assignment
 
-![Assign](screenshots/assign%20policy%20configuration.PNG)
+![Assign](./assign-policy-configuration.PNG)
 
-![Scope](screenshots/policy%20assignment%20scope%20selection.PNG)
+![Scope](./policy-assignment-scope-selection.PNG)
 
-![Advanced](screenshots/policy%20assignment%20advanced%20settings.PNG)
+![Advanced](./policy-assignment-advanced-settings.PNG)
 
-![Summary](screenshots/policy%20assignment%20summary.PNG)
+![Summary](./policy-assignment-summary.PNG)
 
 ---
 
 ## Governance Enforcement
 
-![Enforcement](screenshots/policy%20enforcement%20configuration.PNG)
+![Enforcement](./policy-enforcement-configuration.PNG)
 
-![Compliance](screenshots/policy%20compliance%20settings.PNG)
+![Compliance](./policy-compliance-settings.PNG)
 
 ---
 
-## Deployment Validation
+## Validation Flow
 
-![16](screenshots/16.PNG)
+![16](./16.PNG)
 
-![17](screenshots/17.PNG)
+![17](./17.PNG)
 
-![18](screenshots/18.PNG)
+![18](./18.PNG)
 
-![19](screenshots/19.PNG)
+![19](./19.PNG)
 
-![20](screenshots/20.PNG)
+![20](./20.PNG)
 
-![21](screenshots/21.PNG)
+![21](./21.PNG)
 
-![22](screenshots/22.PNG)
+![22](./22.PNG)
 
-![23](screenshots/23.PNG)
+![23](./23.PNG)
 
-![24](screenshots/24.PNG)
+![24](./24.PNG)
 
-![25](screenshots/25.PNG)
+![25](./25.PNG)
 
-![26](screenshots/26.PNG)
+![26](./26.PNG)
 
-![27](screenshots/27.PNG)
+![27](./27.PNG)
 
-![28](screenshots/28.PNG)
+![28](./28.PNG)
 
-![29](screenshots/29.PNG)
+![29](./29.PNG)
 
 ---
 
 ## Additional Outputs
 
-![X](screenshots/x.PNG)
+![X](./x.PNG)
 
-![Y](screenshots/y.PNG)
+![XYZ](./xyz.PNG)
 
-![Y2](screenshots/y2.PNG)
+![Y](./y.PNG)
 
 ---
 
