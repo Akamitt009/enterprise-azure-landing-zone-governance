@@ -131,137 +131,39 @@ Governance Reporting
 
 ## 📂 Repository Structure
 
-```text
-enterprise-azure-landing-zone-governance/
-
-├── .github/
-│   └── workflows/
-│       └── terraform.yml
-
-├── 16.PNG
-├── 17.PNG
-├── 18.PNG
-├── 19.PNG
-├── 20.PNG
-├── 21.PNG
-├── 22.PNG
-├── 23.PNG
-├── 24.PNG
-├── 25.PNG
-├── 26.PNG
-├── 27.PNG
-├── 28.PNG
-├── 29.PNG
-
-├── assign policy configuration.PNG
-├── policy assignment advanced settings.PNG
-├── policy assignment scope selection.PNG
-├── policy assignment summary.PNG
-├── policy compliance settings.PNG
-├── policy definition basic settings.PNG
-├── policy definition review create.PNG
-├── policy enforcement configuration.PNG
-├── policy tag parameter configuration.PNG
-├── storage account access policy.PNG
-├── storage account container list.PNG
-├── terraform resource deployment output.PNG
-
-├── x.PNG
-├── xy2.PNG
-├── y.PNG
-
-├── main.tf
-├── README.md
-└── .gitignore
 ```
 
----
+enterprise-azure-landing-zone-governance/
 
-# 📸 Governance Implementation Screenshots
+│
 
-## Terraform Deployment
+├── .github/
 
-![Terraform](terraform resource deployment output.PNG)
+│ └── workflows/
 
----
+│ └── terraform.yml
 
-## Storage Backend Configuration
+│
 
-![Storage](storage account access policy.PNG)
+├── screenshots/
 
-![Container](storage account container list.PNG)
+│ ├── compliance-dashboard.png
 
----
+│ ├── governance-policies.png
 
-## Policy Definition
+│ ├── terraform-apply.png
 
-![Basic](policy definition basic settings.PNG)
+│ ├── initiative-assignment.png
 
-![Parameter](policy tag parameter configuration.PNG)
+│
 
-![Review](policy definition review create.PNG)
+├── main.tf
 
----
+├── README.md
 
-## Policy Assignment
+└── .gitignore
 
-![Assign](assign policy configuration.PNG)
-
-![Scope](policy assignment scope selection.PNG)
-
-![Advanced](policy assignment advanced settings.PNG)
-
-![Summary](policy assignment summary.PNG)
-
----
-
-## Governance Enforcement
-
-![Enforcement](policy enforcement configuration.PNG)
-
-![Compliance](policy compliance settings.PNG)
-
----
-
-## Validation Flow
-
-![16](16.PNG)
-
-![17](17.PNG)
-
-![18](18.PNG)
-
-![19](19.PNG)
-
-![20](20.PNG)
-
-![21](21.PNG)
-
-![22](22.PNG)
-
-![23](23.PNG)
-
-![24](24.PNG)
-
-![25](25.PNG)
-
-![26](26.PNG)
-
-![27](27.PNG)
-
-![28](28.PNG)
-
-![29](29.PNG)
-
----
-
-## Additional Outputs
-
-![X](x.PNG)
-
-![XY2](xy2.PNG)
-
-![Y](y.PNG)
+```
 
 ---
 
@@ -275,6 +177,10 @@ Created governance hierarchy:
 - Development Environment
 - Sandbox Environment
 
+Governance boundaries implemented using Azure management structure.
+
+---
+
 ### 2️⃣ Terraform Backend Configuration
 
 Configured:
@@ -284,14 +190,33 @@ Configured:
 - Backend Locking
 - State Management
 
+Infrastructure automation standardized through Terraform.
+
+---
+
 ### 3️⃣ Azure Policy Implementation
 
 Implemented governance controls:
 
-- Allowed Regions Policy
-- VM SKU Restrictions
-- Mandatory Resource Tags
-- Storage Network Security Controls
+Allowed Regions Policy
+
+↓
+
+VM SKU Restrictions
+
+↓
+
+Mandatory Resource Tags
+
+↓
+
+Storage Network Security Controls
+
+↓
+
+Governance Enforcement
+
+---
 
 ### 4️⃣ Initiative Definition Deployment
 
@@ -302,14 +227,101 @@ Configured:
 - Central Governance Assignment
 - Subscription Scope Enforcement
 
+---
+
 ### 5️⃣ Compliance Dashboard
 
 Implemented Azure Monitor Workbook:
+
+Visibility includes:
+
+- Compliance Percentage
+- Compliant Resources
+- Non-Compliant Resources
+- Policy Distribution
+- Resource Governance Status
+
+---
+
+## ⚠ Engineering Challenges Solved
+
+### Challenge 01
+
+Problem:
+
+Terraform backend authorization failure.
+
+Error:
+
+403 AuthorizationFailure
+
+Root Cause:
+
+Terraform backend access restriction.
+
+Solution:
+
+Configured backend authentication and storage access.
+
+Outcome:
+
+Terraform remote backend operational.
+
+---
+
+### Challenge 02
+
+Problem:
+
+Azure Policy Initiative deployment failure.
+
+Error:
+
+MissingPolicyParameter
+
+Root Cause:
+
+Policy initiative parameter mapping incomplete.
+
+Solution:
+
+Implemented parameter definitions and mappings.
+
+Outcome:
+
+Governance initiative deployed successfully.
+
+---
+
+### Challenge 03
+
+Problem:
+
+Governance policy blocked workbook deployment.
+
+Root Cause:
+
+Allowed Locations policy enforcement.
+
+Solution:
+
+Aligned resource deployment region with governance controls.
+
+Outcome:
+
+Governance enforcement validated successfully.
+
+---
+
+## 📈 Compliance Dashboard
+
+Azure Monitor Workbook provides:
 
 - Compliance Percentage
 - Resource Governance Visibility
 - Policy Distribution
 - Non-Compliant Resource Detection
+- Governance Reporting
 
 ---
 
@@ -323,21 +335,30 @@ Implemented:
 - VM SKU Governance
 - Storage Network Controls
 
+Future Improvements:
+
+- Defender for Cloud Integration
+- DeployIfNotExists Automation
+- Key Vault Integration
+- Custom Policy Definitions
+
 ---
 
-## 📈 Business Impact
+## 🧑‍💼 Business Impact
 
 Reduced:
 
 - Manual governance effort
 - Configuration drift
 - Policy violations
+- Governance inconsistencies
 
 Improved:
 
-- Governance visibility
+- Compliance visibility
 - Cloud governance posture
 - Standardization
+- Operational consistency
 
 ---
 
@@ -357,9 +378,21 @@ Azure Monitor
 
 Governance Automation
 
+CI/CD Integration
+
 Cloud Security Controls
 
-CI/CD Integration
+Enterprise Cloud Operations
+
+Troubleshooting
+
+Policy-as-Code
+
+---
+
+## 📈 Final Outcome
+
+Successfully designed and implemented an enterprise Azure Governance platform supporting compliance enforcement, governance automation, policy standardization, continuous monitoring, and cloud operational governance.
 
 ---
 
@@ -369,10 +402,21 @@ Amit Kumar
 
 Azure Administrator | Cloud Infrastructure Engineer | Azure Governance Enthusiast
 
-GitHub:
+Passionate about building scalable cloud governance frameworks, infrastructure automation solutions, and enterprise Azure operational platforms.
+
+---
+
+## 🔗 Connect With Me
+
+LinkedIn
+
+https://linkedin.com/
+
+GitHub
 
 https://github.com/Akamitt009
 
 ---
 
 ⭐ If you found this project valuable, consider giving it a star.
+isme mujhe snap dalne but 1 bat samjh ki mai jo img de raha hu usme jo bhi name dale hai wahi name hona chahiy sajha 
