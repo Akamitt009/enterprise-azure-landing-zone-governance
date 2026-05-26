@@ -5,8 +5,9 @@
 ![Azure Policy](https://img.shields.io/badge/Azure-Policy-0089D6)
 ![GitHub Actions](https://img.shields.io/badge/GitHub-Actions-2088FF?logo=githubactions)
 ![Azure Monitor](https://img.shields.io/badge/Azure-Monitor-0078D4)
+![IaC](https://img.shields.io/badge/Infrastructure-Automation-blue)
 
-Enterprise-grade Azure Governance implementation using Terraform, Azure Policy, Governance Guardrails, Compliance Monitoring, and Policy-as-Code principles to standardize, secure, and continuously monitor Azure cloud environments.
+Enterprise-grade Azure governance implementation using Terraform, Azure Policy, Governance Guardrails, Compliance Monitoring, and Policy-as-Code principles to standardize, secure, and continuously monitor Azure cloud environments.
 
 ---
 
@@ -16,9 +17,35 @@ This project demonstrates an enterprise Azure Governance platform designed using
 
 The implementation automates governance controls, compliance visibility, resource standardization, and cloud security enforcement while following enterprise cloud governance practices.
 
+The platform simulates governance patterns commonly implemented across enterprise Azure landing zone environments.
+
+---
+
+## 🧑‍💼 Business Requirement
+
+Objective was to design a governance framework capable of:
+
+✅ Enforcing governance controls
+
+✅ Eliminating configuration drift
+
+✅ Restricting unauthorized deployments
+
+✅ Standardizing cloud environments
+
+✅ Providing compliance visibility
+
+✅ Implementing Policy-as-Code principles
+
+✅ Improving governance posture
+
+✅ Supporting enterprise cloud operations
+
 ---
 
 ## 🏗 Enterprise Governance Architecture
+
+Governance Workflow:
 
 Azure Subscription
 
@@ -96,63 +123,71 @@ Governance Reporting
 
 ✅ Subscription Governance
 
+✅ Compliance Visibility
+
 ✅ Continuous Governance Monitoring
 
 ---
 
-# 📸 Implementation Screenshots
+## 📂 Repository Structure
 
-## Terraform Backend Deployment
+```text
+enterprise-azure-landing-zone-governance/
 
-![Terraform Deployment](screenshots/terraform%20resource%20deployment%20output.PNG)
+├── .github/
+│   └── workflows/
+│       └── terraform.yml
+
+├── screenshots/
+
+├── main.tf
+
+├── README.md
+
+└── .gitignore
+```
+
+---
+
+# 📸 Governance Implementation Screenshots
+
+## Terraform Deployment
+
+![Terraform](screenshots/terraform%20resource%20deployment%20output.PNG)
 
 ---
 
 ## Storage Backend Configuration
 
-![Storage Policy](screenshots/storage%20account%20access%20policy.PNG)
+![Storage](screenshots/storage%20account%20access%20policy.PNG)
 
-![Storage Container](screenshots/storage%20account%20container%20list.PNG)
+![Container](screenshots/storage%20account%20container%20list.PNG)
 
 ---
 
-## Policy Definition Configuration
+## Policy Definition
 
-### Basic Configuration
+![Basic](screenshots/policy%20definition%20basic%20settings.PNG)
 
-![Basic Settings](screenshots/policy%20definition%20basic%20settings.PNG)
-
-### Tag Parameters
-
-![Tag Config](screenshots/policy%20tag%20parameter%20configuration.PNG)
-
-### Review Configuration
+![Parameter](screenshots/policy%20tag%20parameter%20configuration.PNG)
 
 ![Review](screenshots/policy%20definition%20review%20create.PNG)
 
 ---
 
-## Policy Assignment Configuration
+## Policy Assignment
 
-### Assign Policy
-
-![Assign Policy](screenshots/assign%20policy%20configuration.PNG)
-
-### Scope Selection
+![Assign](screenshots/assign%20policy%20configuration.PNG)
 
 ![Scope](screenshots/policy%20assignment%20scope%20selection.PNG)
 
-### Advanced Settings
-
 ![Advanced](screenshots/policy%20assignment%20advanced%20settings.PNG)
-
-### Assignment Summary
 
 ![Summary](screenshots/policy%20assignment%20summary.PNG)
 
 ---
 
-## Policy Enforcement
+## Governance Enforcement
 
 ![Enforcement](screenshots/policy%20enforcement%20configuration.PNG)
 
@@ -160,9 +195,7 @@ Governance Reporting
 
 ---
 
-## Governance Validation Steps
-
-### Validation Flow
+## Deployment Validation
 
 ![16](screenshots/16.PNG)
 
@@ -204,6 +237,62 @@ Governance Reporting
 
 ---
 
+## 🛠 Implementation Process
+
+### 1️⃣ Governance Structure Design
+
+Created governance hierarchy:
+
+- Production Environment
+- Development Environment
+- Sandbox Environment
+
+---
+
+### 2️⃣ Terraform Backend Configuration
+
+Configured:
+
+- Azure Storage Account
+- Remote State Storage
+- Backend Locking
+- State Management
+
+---
+
+### 3️⃣ Azure Policy Implementation
+
+Implemented:
+
+- Allowed Regions Policy
+- VM SKU Restrictions
+- Mandatory Resource Tags
+- Storage Network Security Controls
+
+---
+
+### 4️⃣ Initiative Definition Deployment
+
+Configured:
+
+- Enterprise Governance Initiative
+- Policy Grouping
+- Central Governance Assignment
+- Subscription Scope Enforcement
+
+---
+
+### 5️⃣ Compliance Dashboard
+
+Implemented Azure Monitor Workbook:
+
+- Compliance Percentage
+- Resource Governance Visibility
+- Policy Distribution
+- Non-Compliant Resource Detection
+
+---
+
 ## 🛡 Security Controls
 
 Implemented:
@@ -214,30 +303,21 @@ Implemented:
 - VM SKU Governance
 - Storage Network Controls
 
-Future Improvements:
-
-- Defender for Cloud Integration
-- DeployIfNotExists Automation
-- Key Vault Integration
-- Custom Policy Definitions
-
 ---
 
 ## 📈 Business Impact
 
 Reduced:
 
-- Manual governance effort
-- Configuration drift
-- Policy violations
-- Governance inconsistencies
+- Configuration Drift
+- Governance Violations
+- Manual Effort
 
 Improved:
 
-- Compliance visibility
-- Governance posture
+- Governance Visibility
 - Standardization
-- Operational consistency
+- Compliance Monitoring
 
 ---
 
@@ -247,9 +327,9 @@ Azure Governance
 
 Terraform
 
-Infrastructure as Code
-
 Azure Policy
+
+Infrastructure as Code
 
 Cloud Compliance
 
@@ -257,23 +337,17 @@ Azure Monitor
 
 Governance Automation
 
+Cloud Security
+
 CI/CD Integration
-
-Cloud Security Controls
-
-Enterprise Cloud Operations
-
-Troubleshooting
-
-Policy-as-Code
 
 ---
 
 ## 👨‍💻 Author
 
-**Amit Kumar**
+Amit Kumar
 
-Azure Administrator | Cloud Infrastructure Engineer | Azure Governance Enthusiast
+Azure Administrator | Cloud Infrastructure Engineer
 
 GitHub:
 
@@ -281,4 +355,4 @@ https://github.com/Akamitt009
 
 ---
 
-⭐ If you found this project valuable, give it a star.
+⭐ Consider giving the repository a star.
