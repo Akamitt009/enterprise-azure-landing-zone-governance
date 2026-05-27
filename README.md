@@ -361,6 +361,69 @@ Improved:
 - Operational consistency
 
 ---
+## Project Screenshots
+
+### Azure Governance & Landing Zone Implementation
+
+![Azure-01](./screenshots/Azure-01.png)
+
+![Azure-02](./screenshots/Azure-02.png)
+
+![Azure-03](./screenshots/Azure-03.png)
+
+![Azure-04](./screenshots/Azure-04.png)
+
+![Azure-05](./screenshots/Azure-05.png)
+
+![Azure-06](./screenshots/Azure-06.png)
+
+![Azure-07](./screenshots/Azure-07.png)
+
+![Azure-08](./screenshots/Azure-08.png)
+
+![Azure-09](./screenshots/Azure-09.png)
+
+![Azure-10](./screenshots/Azure-10.png)
+
+![Azure-11](./screenshots/Azure-11.png)
+
+![Azure-12](./screenshots/Azure-12.png)
+
+![Azure-13](./screenshots/Azure-13.png)
+
+![Azure-14](./screenshots/Azure-14.png)
+
+![Azure-15](./screenshots/Azure-15.png)
+
+![Azure-16](./screenshots/Azure-16.png)
+
+![Azure-17](./screenshots/Azure-17.png)
+
+![Azure-18](./screenshots/Azure-18.png)
+
+![Azure-19](./screenshots/Azure-19.png)
+
+![Azure-20](./screenshots/Azure-20.png)
+
+![Azure-21](./screenshots/Azure-21.png)
+
+![Azure-22](./screenshots/Azure-22.png)
+
+![Azure-23](./screenshots/Azure-23.png)
+
+![Azure-24](./screenshots/Azure-24.png)
+
+![Azure-25](./screenshots/Azure-25.png)
+
+![Azure-26](./screenshots/Azure-26.png)
+
+![Azure-27](./screenshots/Azure-27.png)
+
+![Azure-28](./screenshots/Azure-28.png)
+
+![Azure-29](./screenshots/Azure-29.png)
+
+---
 
 ## 🧠 Skills Demonstrated
 
